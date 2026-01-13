@@ -7,6 +7,8 @@ import type { GithubEmail, GithubUser } from "~/models/dataUser";
 
 const auth = new Hono();
 
+// TODO: Implement jwt and set cookie in login with github
+
 
 auth.post("/google/login", (context) => {
   return context.text("")
@@ -23,6 +25,7 @@ auth.get("github/login", (context) => {
 })
 
 auth.get("github/callback", async (context) => {
+
   const code = context.req.query("code")
   const tokenRes = await fetch("https://github.com/login/oauth/access_token", {
     method: "POST",
