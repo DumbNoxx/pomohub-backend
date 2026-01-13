@@ -1,1 +1,1 @@
-export { usersTable } from "./userTable"
+export { usersTable, userRole } from "./userTable"

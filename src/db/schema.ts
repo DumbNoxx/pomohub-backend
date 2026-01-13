@@ -1,1 +1,1 @@
-export { usersTable } from "./schemas"
+export { usersTable, userRole } from "./schemas"

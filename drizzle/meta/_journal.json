@@ -43,6 +43,13 @@
       "when": 1768287005851,
       "tag": "0005_open_tana_nile",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1768339020045,
+      "tag": "0006_graceful_thena",
+      "breakpoints": true
     }
   ]
 }
