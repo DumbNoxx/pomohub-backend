@@ -1,0 +1,1 @@
+ALTER TABLE "users" ADD COLUMN "url_avatar_github" varchar(255) DEFAULT '' NOT NULL;

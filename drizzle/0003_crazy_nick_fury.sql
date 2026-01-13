@@ -1,0 +1,1 @@
+ALTER TABLE "users" ADD COLUMN "github_id" varchar(255) NOT NULL;
